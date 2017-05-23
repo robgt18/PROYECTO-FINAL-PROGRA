@@ -5,34 +5,34 @@ using System.Web;
 
 namespace PROYECTO_FINAL_PROGRA
 {
-    public class Comunidad
+    public class Piso
     {
-        string nombre;
-        int poblacion;
+        string vhvn;
+        int habitaciones;
 
-        public string Nombre
+        public string Vhvn
         {
             get
             {
-                return nombre;
+                return vhvn;
             }
 
             set
             {
-                nombre = value;
+                vhvn = value;
             }
         }
 
-        public int Poblacion
+        public int Habitaciones
         {
             get
             {
-                return poblacion;
+                return habitaciones;
             }
 
             set
             {
-                poblacion = value;
+                habitaciones = value;
             }
         }
     }

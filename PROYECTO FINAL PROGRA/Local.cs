@@ -5,34 +5,35 @@ using System.Web;
 
 namespace PROYECTO_FINAL_PROGRA
 {
-    public class Comunidad
-    {
-        string nombre;
-        int poblacion;
+    public class Local:Propiedades
 
-        public string Nombre
+    {
+        string nombrecomercial;
+        string actividad;
+
+        public string Nombrecomercial
         {
             get
             {
-                return nombre;
+                return nombrecomercial;
             }
 
             set
             {
-                nombre = value;
+                nombrecomercial = value;
             }
         }
 
-        public int Poblacion
+        public string Actividad
         {
             get
             {
-                return poblacion;
+                return actividad;
             }
 
             set
             {
-                poblacion = value;
+                actividad = value;
             }
         }
     }

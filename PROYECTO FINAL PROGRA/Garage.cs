@@ -5,34 +5,34 @@ using System.Web;
 
 namespace PROYECTO_FINAL_PROGRA
 {
-    public class Comunidad
+    public class Garage:Propiedades
     {
-        string nombre;
-        int poblacion;
+        string abierta;
+        string bodega;
 
-        public string Nombre
+        public string Abierta
         {
             get
             {
-                return nombre;
+                return abierta;
             }
 
             set
             {
-                nombre = value;
+                abierta = value;
             }
         }
 
-        public int Poblacion
+        public string Bodega
         {
             get
             {
-                return poblacion;
+                return bodega;
             }
 
             set
             {
-                poblacion = value;
+                bodega = value;
             }
         }
     }
