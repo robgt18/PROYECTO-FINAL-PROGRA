@@ -8,9 +8,9 @@ namespace PROYECTO_FINAL_PROGRA
     public class Propiedades
     {
         string tipo;
-        string codigo;
+        string codigopropiedad;
         int metros;
-        string propietarios;
+        string nitpropietario;
         List<string> gastos;
 
         public string Tipo
@@ -26,18 +26,7 @@ namespace PROYECTO_FINAL_PROGRA
             }
         }
 
-        public string Codigo
-        {
-            get
-            {
-                return codigo;
-            }
-
-            set
-            {
-                codigo = value;
-            }
-        }
+      
 
         public int Metros
         {
@@ -52,18 +41,7 @@ namespace PROYECTO_FINAL_PROGRA
             }
         }
 
-        public string Propietarios
-        {
-            get
-            {
-                return propietarios;
-            }
-
-            set
-            {
-                propietarios = value;
-            }
-        }
+        
 
         public List<string> Gastos
         {
@@ -75,6 +53,32 @@ namespace PROYECTO_FINAL_PROGRA
             set
             {
                 gastos = value;
+            }
+        }
+
+        public string Codigopropiedad
+        {
+            get
+            {
+                return codigopropiedad;
+            }
+
+            set
+            {
+                codigopropiedad = value;
+            }
+        }
+
+        public string Nitpropietario
+        {
+            get
+            {
+                return nitpropietario;
+            }
+
+            set
+            {
+                nitpropietario = value;
             }
         }
     }

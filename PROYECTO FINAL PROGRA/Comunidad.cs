@@ -7,8 +7,22 @@ namespace PROYECTO_FINAL_PROGRA
 {
     public class Comunidad
     {
+        string identificacion;
         string nombre;
-        int poblacion;
+        string poblacion;
+
+        public string Identificacion
+        {
+            get
+            {
+                return identificacion;
+            }
+
+            set
+            {
+                identificacion = value;
+            }
+        }
 
         public string Nombre
         {
@@ -23,7 +37,7 @@ namespace PROYECTO_FINAL_PROGRA
             }
         }
 
-        public int Poblacion
+        public string Poblacion
         {
             get
             {

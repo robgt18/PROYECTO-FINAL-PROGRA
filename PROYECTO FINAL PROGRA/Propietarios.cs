@@ -10,6 +10,7 @@ namespace PROYECTO_FINAL_PROGRA
         string nombre;
         string nit;
         string email;
+     
 
         public string Nombre
         {
@@ -49,5 +50,7 @@ namespace PROYECTO_FINAL_PROGRA
                 email = value;
             }
         }
+
+       
     }
 }
